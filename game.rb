@@ -1,4 +1,5 @@
-
+#This has the changing of rand to an alternate that was requested in hard mode
+#I could not figure out how to get the "you're wasting a guess" to work by adjusting a suitable range
 def guess
   puts "Guess a random number between 1 and 100."
 end
