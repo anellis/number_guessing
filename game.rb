@@ -12,7 +12,7 @@ def remaining_guesses(count)
 end
 
 previous_guesses=[]
-random_number=rand (100) + 1
+random_number=(1..100).to_a.sample
 win=false
 incorrect_guesses=0
 
