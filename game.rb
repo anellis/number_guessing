@@ -34,7 +34,6 @@ while (win==false && incorrect_guesses<5)
   if previous_guesses.include?(user_guess)
     puts "Are you feeling all right? You already guessed that!"
   end
-
   previous_guesses<<user_guess
 end
 
